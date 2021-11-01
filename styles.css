@@ -39,3 +39,11 @@ picture {
 	max-width: 100%;
 	display: block; /* helps us deal with spacing issues */
 }
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
