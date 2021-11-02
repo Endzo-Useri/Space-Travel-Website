@@ -72,3 +72,7 @@ select {
 	display: grid;
 	gap: var(--gap, 1rem);
 }
+
+.container {
+	
+}
