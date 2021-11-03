@@ -15,7 +15,6 @@
 /* https://piccalil.li/blog/a-modern-css-reset/ */ /* Eric Meyer normalize and sanitize */
 
 /* Box sizing */ /* Makes calculating the width and height of things much easier. */
-
 *,
 *::before,
 *::after {
@@ -23,7 +22,6 @@
 }
 
 /* Reset margins */
-
 body,
 h1,
 h2,
@@ -73,6 +71,8 @@ select {
 /* Utility classes     */
 /* ------------------- */
 
+/* general */
+
 .flex {
 	display: flex;
 	gap: var(--gap, 1rem);
@@ -101,11 +101,5 @@ select {
   border: 0;
 }
 
-.box {
-    background: lightblue;
-    padding: 3rem;
-}
+/* colors */
 
-.grid {
-	gap: var(--gap, 2rem);
-}
