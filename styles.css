@@ -103,3 +103,8 @@ select {
 
 /* colors */
 
+.bg-dark { background-color: hsl( var(--clr-dark) );}
+
+.bg-light { background-color: hsl( var(--clr-light) );}
+
+.bg-white { background-color: hsl( var(--clr-white) );}
