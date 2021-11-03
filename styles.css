@@ -96,3 +96,6 @@ select {
     padding: 3rem;
 }
 
+.grid {
+	gap: var(--gap, 2rem);
+}
