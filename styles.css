@@ -195,10 +195,16 @@ select {
 /* ------------------- */
 
 .large-button {
+	position: relative;
 	display: grid;
 	padding: 0 2em;
 	place-items: center;
 	border-radius: 50%;
 	aspect-ratio: 1;
 	text-decoration: none;
+}
+
+.large-button {
+	content: '';
+	position: absolute;
 }
