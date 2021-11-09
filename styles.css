@@ -117,7 +117,7 @@ select {
 
 .flow > *:where(:not(:first-child)) {
 	margin-top: var(--flow-space, 1rem);
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .container {
@@ -193,3 +193,12 @@ select {
 /* ------------------- */
 /* Components          */
 /* ------------------- */
+
+.large-button {
+	display: grid;
+	padding: 0 2em;
+	place-items: center;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	text-decoration: none;
+}
