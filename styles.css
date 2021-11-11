@@ -240,5 +240,6 @@ select {
 }
 
 .underline-indicators > * {
+	padding: 1em 0;
 	border-bottom: .2rem solid hsl( var(--clr-white) );
 }
