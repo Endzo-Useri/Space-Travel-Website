@@ -284,4 +284,5 @@ select {
 	cursor: pointer;
 	border: 0;
 	border-radius: 50%;
+	padding: .5em 1em;
 }
