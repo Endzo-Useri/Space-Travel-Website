@@ -242,6 +242,8 @@ select {
 
 .underline-indicators > * {
 	padding: var(--underline-gap, 1em) 0;
+	border: 0;
+	cursor: pointer;
 	border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
 }
 
