@@ -239,6 +239,6 @@ select {
 	margin-right: .5em;
 }
 
-underline-indicators {
-	
+underline-indicators > * {
+
 }
