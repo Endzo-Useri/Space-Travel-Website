@@ -1,5 +1,5 @@
 :root {
-	--gap: 2rem;
+	/* --gap: 2rem; */
 }
 
 .flex {
@@ -9,14 +9,7 @@
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
 	gap: var(--gap, 1rem);
-	margin-top: 3em;
-}
-
-.flow > *:where(:not(:first-child)) {
-	margin-top: var(--flow-space, 1rem);
-	/* outline: 1px solid red; */
 }
 
 .container {
