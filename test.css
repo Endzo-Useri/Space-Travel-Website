@@ -34,3 +34,8 @@
 	background: lightblue;
 	padding: 3rem;
 }
+
+/* Adding a class is another way to manipulate the gap */
+.cta {
+	--gap: 5rem;
+}
