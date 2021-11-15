@@ -53,7 +53,10 @@ picture {
 
 /* set up the body */
 body {
-	
+	font-family: var(--ff-sans-normal);
+	font-size: var(--fs-400);
+	background-color: var(--bg-dark);
+	color: var(--bg-white);
 	line-height: 1.5;
 	min-height: 100vh;
 }
