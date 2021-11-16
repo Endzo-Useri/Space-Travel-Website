@@ -223,7 +223,7 @@ select {
 	background: hsl( var(--clr-white) / .15 );
 	border-radius: inherit;
 	opacity: 0;
-	transition: opacity 500ms linear, transform 500ms ease-in-out;
+	transition: opacity 500ms linear, transform 750ms ease-in-out;
 }
 
 .large-button:hover::after,
