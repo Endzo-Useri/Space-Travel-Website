@@ -206,6 +206,7 @@ select {
 .large-button {
 	position: relative;
 	display: grid;
+	z-index: 1;
 	place-items: center;
 	padding: 0 2em;
 	border-radius: 50%;
@@ -217,8 +218,16 @@ select {
 	content: " ";
 	position: absolute;
 	z-index: -1;
-	background: red;
 	width: 100%;
 	height: 100%;
+	background: hsl( var(--clr-white) / .15 );
 	border-radius: inherit;
+	opacity: 0;
+	transition: opacity 500ms linear, transform 500ms ease-in-out;
+}
+
+.large-button:hover::after,
+.large-button:focus::after {
+	opacity: 1;
+	transform: scale( 1.5);
 }
