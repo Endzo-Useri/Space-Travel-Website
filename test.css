@@ -204,10 +204,21 @@ select {
 /* ------------------- */
 
 .large-button {
+	position: relative;
 	display: grid;
 	place-items: center;
 	padding: 0 2em;
 	border-radius: 50%;
 	aspect-ratio: 1;
 	text-decoration: none;
+}
+
+.large-button::after {
+	content: " ";
+	position: absolute;
+	z-index: -1;
+	background: red;
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
 }
