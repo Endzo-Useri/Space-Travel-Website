@@ -247,3 +247,7 @@ select {
 	font-weight: 700;
 	margin-right: .5em;
 }
+
+.underline-indicators > * {
+	border-bottom: .2rem solid hsl( var(--clr-white) );
+}
