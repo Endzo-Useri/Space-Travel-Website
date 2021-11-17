@@ -286,7 +286,6 @@ select {
 	border-radius: 50%;
 	aspect-ratio: 1;
 	padding: 0 1em;
-	margin-right: ;
 	background-color: hsl( var(--clr-white) / .25 );
 }
 
